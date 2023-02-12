@@ -1,0 +1,23 @@
+{
+  "name": "code-world",
+  "version": "1.0.0",
+  "description": "This is an Quiz testing app based on Java Swing and AWT packages. \r I developed this as a part of my academic project in second year of my engineering (SEM-3).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexiiee/Online-Testing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexiiee/Online-Testing-app/issues"
+  },
+  "homepage": "https://github.com/Alexiiee/Online-Testing-app#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
