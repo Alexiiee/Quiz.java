@@ -14,9 +14,9 @@ db.connect((err) =>{
     return;
   }
   console.log("Database Connected sucessfully");
-  db.query("SELECT * FROM Login, function (err, result, fields) {
+  db.query("SELECT * FROM Login where ID > 40, function (err, result, fields) {
     if(err) throw err;
     console.log(result);
 });
-});
+})
 conection .end();
